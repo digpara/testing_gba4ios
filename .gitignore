@@ -17,9 +17,9 @@ DerivedData
 *.hmap
 
 #CocoaPods
-Pods
+  # Pods
 Podfile.lock
-Pods/
+  # Pods/
 
 #Emulator
 GBAEmulator
