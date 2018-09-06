@@ -1,4 +1,4 @@
-GBA4iOS
+GBA4iOS (Local PODs dep)
 ===========
 
 ![GBA4iOS](http://gba4iosapp.com/images/download/gba4ios2_devices.png)
@@ -32,9 +32,6 @@ Getting Started
 
 GBA4iOS can be opened in Xcode and deployed to an iOS device just like an other app, but there are a few steps that need to be completed first:
 
-• Download and install [Cocoapods](http://cocoapods.org/)  
-• From the root directory, run the following command in terminal:
-`pod install`  
 • Open up the .xcworkspace file, and deploy to your device!
 
 Requirements
