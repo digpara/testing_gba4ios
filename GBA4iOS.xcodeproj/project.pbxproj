@@ -2035,7 +2035,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC2D57311798F2ED00C616EB /* Build configuration list for PBXNativeTarget "GBA4iOS" */;
 			buildPhases = (
-				939E031126014661A3BB86B3 /* [CP] Check Pods Manifest.lock */,
 				CC2D56F81798F2EC00C616EB /* Sources */,
 				CC2D56F91798F2EC00C616EB /* Frameworks */,
 				CC2D56FA1798F2EC00C616EB /* Resources */,
@@ -2209,21 +2208,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GBA4iOS-Simulator/Pods-GBA4iOS-Simulator-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		939E031126014661A3BB86B3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		BF2F34DC183FF6F9002ACE90 /* [CP] Check Pods Manifest.lock */ = {
@@ -3051,7 +3035,7 @@
 					"\"$(SRCROOT)/SFML/include/\"",
 				);
 				INFOPLIST_FILE = "GBA4iOS/GBA4iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-Objc",
@@ -3263,7 +3247,7 @@
 					"\"$(SRCROOT)/SFML/include/\"",
 				);
 				INFOPLIST_FILE = "GBA4iOS/GBA4iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-Objc",
@@ -3599,7 +3583,7 @@
 					"\"$(SRCROOT)/SFML/include/\"",
 				);
 				INFOPLIST_FILE = "GBA4iOS/GBA4iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-Objc",
@@ -3645,7 +3629,7 @@
 					"\"$(SRCROOT)/SFML/include/\"",
 				);
 				INFOPLIST_FILE = "GBA4iOS/GBA4iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-Objc",
@@ -3810,7 +3794,7 @@
 					"\"$(SRCROOT)/SFML/include/\"",
 				);
 				INFOPLIST_FILE = "GBA4iOS/GBA4iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = (
 					"-Objc",
